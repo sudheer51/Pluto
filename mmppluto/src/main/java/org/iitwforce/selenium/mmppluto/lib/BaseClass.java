@@ -38,7 +38,7 @@ public class BaseClass {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
-		 
+		launchBrowser(pro.getProperty("url"));
 
 	}
 	public void launchBrowser(String url)
