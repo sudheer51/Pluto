@@ -54,6 +54,7 @@ public class LoginTests extends BaseClass {
 		//String actualTitle = homePage.getcurrentTitle();
 		String actualTitle="home";
 		String expectedTitle=expectedMsg;
+		System.out.println("Checking the Login via DP");
 		Assert.assertEquals(actualTitle, expectedTitle);
 		 
 	}
