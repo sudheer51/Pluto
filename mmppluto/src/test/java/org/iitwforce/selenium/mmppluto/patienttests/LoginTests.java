@@ -54,7 +54,7 @@ public class LoginTests extends BaseClass {
 		//String actualTitle = homePage.getcurrentTitle();
 		String actualTitle="home";
 		String expectedTitle=expectedMsg;
-		System.out.println("Login is successful");
+		System.out.println("Login to MMP is successful");
 		Assert.assertEquals(actualTitle, expectedTitle);
 		 
 	}
