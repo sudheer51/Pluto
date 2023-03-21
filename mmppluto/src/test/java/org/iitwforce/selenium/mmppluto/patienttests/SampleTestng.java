@@ -25,6 +25,10 @@ public class SampleTestng {
 			public void simpleTest1A() {
 				System.out.println("In simpleTestA");
 			}
+			@Test
+			public void simpleTest2A() {
+				System.out.println("In simpleTestA");
+			}
 			 
 			
 	}
