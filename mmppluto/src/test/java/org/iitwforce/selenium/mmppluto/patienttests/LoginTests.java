@@ -48,11 +48,11 @@ public class LoginTests extends BaseClass {
 	@Test(dataProvider="DP",description="TC_003 Login with valid creds via xlsx",groups= {"Sanity","Regression"})
 	public void validateBooking_TC003_xlsx(String username,String password,String expectedMsg)
 	{
-		//launchBrowser(pro.getProperty("url"));
-		//LoginPage loginPage = new LoginPage(driver);
-		//HomePage homePage = loginPage.login(username,password);
-		//String actualTitle = homePage.getcurrentTitle();
-		String actualTitle="home";
+		launchBrowser(pro.getProperty("url"));
+		LoginPage loginPage = new LoginPage(driver);
+		HomePage homePage = loginPage.login(username,password);
+		String actualTitle = homePage.getcurrentTitle();
+		//String actualTitle="home";
 		String expectedTitle=expectedMsg;
 		Assert.assertEquals(actualTitle, expectedTitle);
 		 
