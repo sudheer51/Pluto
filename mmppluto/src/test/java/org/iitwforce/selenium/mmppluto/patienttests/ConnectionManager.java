@@ -21,6 +21,8 @@ public class ConnectionManager
 		Fetch teh data store in Array
 		Pass the Array to the DP
 		Use the DP for executing the testcases
+		https://www.w3schools.com/sql/sql_where.asp
+		https://total-qa.com/mysql-database-testing-using-selenium-webdriver-step-step-guide/
 	 */
 
 	@Test(dataProvider="DP")
