@@ -9,7 +9,9 @@
 		<parameter name="sym" value="Fever,Cold,Cough" />
 		<classes>
 			<class
-				name="org.iitwforce.selenium.mmppluto.patienttests.LoginTests" />
+				name="org.iitwforce.selenium.mmppluto.patienttests.RegisterTests" />
 		</classes>
 	</test> <!-- Test -->
+	
+	
 </suite> <!-- Suite -->
